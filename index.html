@@ -1,0 +1,2415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Lugx Gaming Shop HTML5 Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-lugx-gaming.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .horizontal-scroll-container {
+      overflow-x: auto;
+      white-space: nowrap;
+      padding-bottom: 20px; /* Add some padding to the bottom */
+      -webkit-overflow-scrolling: touch;
+      scroll-behavior: smooth;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(128, 128, 128, 0.331) rgba(128, 128, 128, 0.251);
+    }
+
+    .horizontal-scroll-container .trending-items {
+      display: inline-block;
+      width: 250px; /* Adjust the width as needed */
+      margin-right: 15px; /* Adjust the margin as needed */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #e1e1e151;
+      padding: 5px 10px 5px 10px;
+      border-radius: 8px;
+      vertical-align: top;
+    }
+
+    .thumb img {
+      width: 100%;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      max-width: 200px;
+      max-height: 140px;
+      min-width: 200px !important;
+      min-height: 140px !important;
+    }
+
+    .price {
+      background-color: #ff5722;
+      color: #fff;
+      padding: 5px 10px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      border-radius: 5px;
+    }
+
+    .down-content {
+      padding: 10px;
+    }
+
+    .down-content .category {
+      color: #666;
+      font-size: 14px;
+    }
+
+    .down-content h4 {
+      margin: 10px 0;
+      font-size: 18px;
+      text-transform: uppercase;
+      overflow: scroll;
+      scrollbar-width: none;
+    }
+
+    .down-content a {
+      color: #ff5722;
+      text-decoration: none;
+    }
+    .non-mem{
+      float: left;
+      clear: left;
+      display:inline
+    }
+    .mem{
+      float: left;
+      clear: left;
+      display:inline
+    }
+
+    .women .space-20{
+      margin: 30px 5px;
+    }
+    /* Media query for mobile view */
+    @media (max-width: 768px) {
+      .horizontal-scroll-container .trending-items {
+        width: 200px; /* Adjust the width for mobile view */
+        margin-right: 10px; /* Adjust the margin for mobile view */
+      }
+    }
+    </style>
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logo.png" alt="" style="width: 158px;">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                      <li><a href="index.html" class="active">Home</a></li>
+                      <li><a href="shop.html">Our Shop</a></li>
+                      <li><a href="product-details.html">Product Details</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                      <li><a href="#">Sign In</a></li>
+                  </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="caption header-text">
+            <h6>Welcome to Hair Crush</h6>
+            <h2>BEST SALOON EVER!</h2>
+            <p>LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming websites. You can download and use this layout for commercial purposes. Please tell your friends about TemplateMo.</p>
+            <div class="search-input">
+              <form id="search" action="#">
+                <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" onkeypress="handle" />
+                <button role="button">Search Now</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 offset-lg-2">
+          <div class="right-image">
+            <img src="assets/images/banner-image.jpg" alt="">
+            <span class="price">$22</span>
+            <span class="offer">-40%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="features">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <a href="#">
+            <div class="item">
+              <div class="image">
+                <img src="assets/images/featured-01.png" alt="" style="max-width: 44px;">
+              </div>
+              <h4>Free Storage</h4>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <a href="#">
+            <div class="item">
+              <div class="image">
+                <img src="assets/images/featured-02.png" alt="" style="max-width: 44px;">
+              </div>
+              <h4>User More</h4>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <a href="#">
+            <div class="item">
+              <div class="image">
+                <img src="assets/images/featured-03.png" alt="" style="max-width: 44px;">
+              </div>
+              <h4>Reply Ready</h4>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <a href="#">
+            <div class="item">
+              <div class="image">
+                <img src="assets/images/featured-04.png" alt="" style="max-width: 44px;">
+              </div>
+              <h4>Easy Layout</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+ <!--- <div class="container-fluid">
+    <div class="horizontal-scroll-container d-flex flex-nowrap">
+      <div class="trending-items">
+        <div class="item">
+          <div class="thumb">
+            <a href="product-details.html"><img src="assets/images/trending-01.jpg" alt=""></a>
+            <span class="price"><em>$36</em>$24</span>
+          </div>
+          <div class="down-content">
+            <span class="category">Action</span>
+            <h4>Assassin Creed</h4>
+            
+          </div>
+        </div>
+      </div>
+      <div class="trending-items">
+        <div class="item">
+          <div class="thumb">
+            <a href="product-details.html"><img src="assets/images/trending-02.jpg" alt=""></a>
+            
+          </div>
+          <div class="down-content">
+            <span class="category">Action</span>
+            <h4>Assassin Creed</h4>
+            
+          </div>
+        </div>
+      </div>
+      <div class="trending-items">
+        <div class="item">
+          <div class="thumb">
+            <a href="product-details.html"><img src="assets/images/trending-03.jpg" alt=""></a>
+            <span class="price"><em>$45</em>$30</span>
+          </div>
+          <div class="down-content">
+            <span class="category">Action</span>
+            <h4>Assassin Creed</h4>
+            
+          </div>
+        </div>
+      </div>
+      <div class="trending-items">
+        <div class="item">
+          <div class="thumb">
+            <a href="product-details.html"><img src="assets/images/trending-04.jpg" alt=""></a>
+            
+          </div>
+          <div class="down-content">
+            <span class="category">Action</span>
+            <h4>Assassin Creed</h4>
+            
+          </div>
+        </div>
+      </div>
+      <div class="trending-items">
+        <div class="item">
+          <div class="thumb">
+            <a href="product-details.html"><img src="assets/images/trending-03.jpg" alt=""></a>
+            
+          </div>
+          <div class="down-content">
+            <span class="category">Action</span>
+            <h4>Assassin Creed</h4>
+            
+          </div>
+        </div>
+      </div>
+      <div class="trending-items">
+        <div class="item">
+          <div class="thumb">
+            <a href="product-details.html"><img src="assets/images/trending-01.jpg" alt=""></a>
+            
+          </div>
+          <div class="down-content">
+            <span class="category">Action</span>
+            <h4>Assassin Creed</h4>
+            
+          </div>
+        </div>
+      </div>
+      <div class="trending-items">
+        <div class="item">
+          <div class="thumb">
+            <a href="product-details.html"><img src="assets/images/trending-04.jpg" alt=""></a>
+            
+          </div>
+          <div class="down-content">
+            <span class="category">Action</span>
+            <h4>Assassin Creed</h4>
+            
+          </div>
+        </div>
+      </div>
+      <div class="trending-items">
+        <div class="item">
+          <div class="thumb">
+            <a href="product-details.html"><img src="assets/images/trending-02.jpg" alt=""></a>
+            
+          </div>
+          <div class="down-content">
+            <span class="category">Action</span>
+            <h4>Assassin Creed</h4>
+            
+          </div>
+        </div>
+      </div>
+      <div class="trending-items">
+        <div class="item">
+          <div class="thumb">
+            <a href="product-details.html"><img src="assets/images/trending-03.jpg" alt=""></a>
+            
+          </div>
+          <div class="down-content">
+            <span class="category">Action</span>
+            <h4>Assassin Creed</h4>
+            
+          </div>
+        </div>
+      </div>
+      <div class="trending-items">
+        <div class="item">
+          <div class="thumb">
+            <a href="product-details.html"><img src="assets/images/trending-04.jpg" alt=""></a>
+            
+          </div>
+          <div class="down-content">
+            <span class="category">Action</span>
+            <h4>Assassin Creed</h4>
+            
+          </div>
+        </div>
+      </div>
+      <div class="trending-items">
+        <div class="item">
+          <div class="thumb">
+            <a href="product-details.html"><img src="assets/images/trending-01.jpg" alt=""></a>
+            
+          </div>
+          <div class="down-content">
+            <span class="category">Action</span>
+            <h4>Assassin Creed</h4>
+            
+          </div>
+        </div>
+      </div>
+      <div class="trending-items">
+        <div class="item">
+          <div class="thumb">
+            <a href="product-details.html"><img src="assets/images/trending-02.jpg" alt=""></a>
+            
+          </div>
+          <div class="down-content">
+            <span class="category">Action</span>
+            <h4>Assassin Creed</h4>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="section trending">
+    <div class="container">
+      <ul class="trending-filter">
+        <li>
+          <a class="is_active" href="#!" data-filter="women" onclick="showSection('women')">FEMALE</a>
+        </li>
+        <li>
+          <a href="#!" data-filter="men" onclick="showSection('men')">MALE</a>
+        </li>
+      </ul>
+      <!--Women section-->
+      <div class="women" id="women-section">
+
+      <!--Women Threading section-->
+      <div class="threading space-20">
+        <div class="section-heading">
+          <h6>THREADING</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_jUJ15kXKxEuxyMwrIx2HBeYHjxv60Hw9X54A1X9zv4kzEFgna1TCKfoHotGfcEGp1Us&usqp=CAU" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>CHIN</h4>
+                  <span class="category non-mem">Non-Mem ₹ 50</span>
+                  <span class="category mem">Mem ₹ 40</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1u3G5d6gZSMsicgc7M6MebYy83kNRn12RvQ&usqp=CAU" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>Eye brows</h4>
+                  <span class="category non-mem">Non-Mem ₹ 50</span>
+                  <span class="category mem">Mem ₹ 40</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTCZXJD629KrYX7wMfvLO0LE_Chi8Wb9FkIR2bswjKo0r_SM1ViDIuRohzldS1EjD6YAk&usqp=CAU" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>Fore head</h4>
+                  <span class="category non-mem">Non-Mem ₹ 50</span>
+                  <span class="category mem">Mem ₹ 40</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://www.glamoureyebrowmason.com/wp-content/uploads/2018/10/l1.jpg" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>Lower lip</h4>
+                  <span class="category non-mem">Non-Mem ₹ 50</span>
+                  <span class="category mem">Mem ₹ 40</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://5.imimg.com/data5/YY/GB/XZ/SELLER-8438256/upper-lips-threading.jpeg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>Upper lip</h4>
+                  <span class="category non-mem">Non-Mem ₹ 50</span>
+                  <span class="category mem">Mem ₹ 40</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://myspalotus.com/wp-content/uploads/2023/08/cheeks-threading.jpeg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>CHeeks</h4>
+                  <span class="category non-mem">Non-Mem ₹ 60</span>
+                  <span class="category mem">Mem ₹ 50</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://www.feelpink.ae/wp-content/uploads/2021/03/Side-Face-Threading.jpg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>Sides</h4>
+                  <span class="category non-mem">Non-Mem ₹ 70</span>
+                  <span class="category mem">Mem ₹ 60</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://www.kriyanshbeautybar.com/images/neck-threading.jpeg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>Neck</h4>
+                  <span class="category non-mem">Non-Mem ₹ 90</span>
+                  <span class="category mem">Mem ₹ 80</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://static.wixstatic.com/media/469a9f_35ced5b9d3924cbe8082314bec6e79cf~mv2_d_4069_2948_s_4_2.jpg/v1/fill/w_602,h_436,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/469a9f_35ced5b9d3924cbe8082314bec6e79cf~mv2_d_4069_2948_s_4_2.jpg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>Full face</h4>
+                  <span class="category non-mem">Non-Mem ₹ 300</span>
+                  <span class="category mem">Mem ₹ 260</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women threading section ###-->
+
+
+      <!--Women Flavoured wax section-->
+      <div class="flavoured-wax space-20">
+        <div class="section-heading">
+          <h6>FLAVOURED WAX</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://cdn.dotpe.in/longtail/store-items/7976446/4P28ChLK.jpeg" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>CHIN</h4>
+                  <span class="category non-mem">Non-Mem ₹ 80</span>
+                  <span class="category mem">Mem ₹ 70</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://media.licdn.com/dms/image/C5112AQFctDVVRCuSdA/article-cover_image-shrink_600_2000/0/1520201951224?e=2147483647&v=beta&t=NbcmQH7Tk_0ea5cKHrt6nY5OM6gb-cGJKmqzsTsLBbA" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>Upper lip</h4>
+                  <span class="category non-mem">Non-Mem ₹ 60</span>
+                  <span class="category mem">Mem ₹ 50</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://bushbalm.com/cdn/shop/articles/Waxing_after_care_and_avoiding_a_tear_2000x.jpg?v=1670467335" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>Under arms</h4>
+                  <span class="category non-mem">Non-Mem ₹ 150</span>
+                  <span class="category mem">Mem ₹ 130</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://silverinesalon.in/cdn/shop/files/halfarms.jpg?v=1682661766" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>Half arms</h4>
+                  <span class="category non-mem">Non-Mem ₹ 280</span>
+                  <span class="category mem">Mem ₹ 260</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://remedytupelo.com/storage/2022/11/10-Things-To-Know-Before-Getting-Your-Facial-Waxing-1024x683.jpeg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>Face</h4>
+                  <span class="category non-mem">Non-Mem ₹ 50</span>
+                  <span class="category mem">Mem ₹ 40</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://editunisexspasaloon.com/photos/product/lipo-wax/half-back.jpg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>Half Back</h4>
+                  <span class="category non-mem">Non-Mem ₹ 60</span>
+                  <span class="category mem">Mem ₹ 50</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://beautylook.in/wp-content/uploads/2022/08/shutterstock_377324134-scaled.jpg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>Full arms</h4>
+                  <span class="category non-mem">Non-Mem ₹ 70</span>
+                  <span class="category mem">Mem ₹ 60</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://www.glossunisexsalon.in/image/cache/catalog/FL-758x899.jpg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>Half Legs</h4>
+                  <span class="category non-mem">Non-Mem ₹ 90</span>
+                  <span class="category mem">Mem ₹ 80</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://dsbeautybar.com/cdn/shop/products/image_0b6403cd-12bc-42c6-a793-7271de635c7a_1000x.jpg?v=1567347656" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>Full Back</h4>
+                  <span class="category non-mem">Non-Mem ₹ 300</span>
+                  <span class="category mem">Mem ₹ 260</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://queeninfinity.ie/wp-content/uploads/2022/12/7cb51a_2b98906417a24aab90b3c7c191d1f512_mv2.webp" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>Full Legs</h4>
+                  <span class="category non-mem">Non-Mem ₹ 300</span>
+                  <span class="category mem">Mem ₹ 260</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOUCkJ3l5Frn3hEMxN45cqLX18b0JE4GM09g&usqp=CAU" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>Full Body</h4>
+                  <span class="category non-mem">Non-Mem ₹ 300</span>
+                  <span class="category mem">Mem ₹ 260</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women Flavoured wax section ###-->
+      
+      <!--Women Hair Styling section-->
+      <div class="hair-styling space-20">
+        <div class="section-heading">
+          <h6>HAIR STYLING</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://cdn.dotpe.in/longtail/store-items/7976446/4P28ChLK.jpeg" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>FRINGE CUT</h4>
+                  <span class="category non-mem">Non-Mem ₹ 150</span>
+                  <span class="category mem">Mem ₹ 150</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://media.licdn.com/dms/image/C5112AQFctDVVRCuSdA/article-cover_image-shrink_600_2000/0/1520201951224?e=2147483647&v=beta&t=NbcmQH7Tk_0ea5cKHrt6nY5OM6gb-cGJKmqzsTsLBbA" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>KIDS HAIR CUT</h4>
+                  <span class="category non-mem">Non-Mem ₹ 200</span>
+                  <span class="category mem">Mem ₹ 150</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://bushbalm.com/cdn/shop/articles/Waxing_after_care_and_avoiding_a_tear_2000x.jpg?v=1670467335" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>HAIR CUT BASIC</h4>
+                  <span class="category non-mem">Non-Mem ₹ 400</span>
+                  <span class="category mem">Mem ₹ 350</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://silverinesalon.in/cdn/shop/files/halfarms.jpg?v=1682661766" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>TRIM</h4>
+                  <span class="category non-mem">Non-Mem ₹ 650</span>
+                  <span class="category mem">Mem ₹ 600</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://remedytupelo.com/storage/2022/11/10-Things-To-Know-Before-Getting-Your-Facial-Waxing-1024x683.jpeg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>ADVANCED HAIRCUT</h4>
+                  <span class="category non-mem">Non-Mem ₹ 900</span>
+                  <span class="category mem">Mem ₹ 850</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://editunisexspasaloon.com/photos/product/lipo-wax/half-back.jpg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>HAIR SETTING M/L</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1000/1500</span>
+                  <span class="category mem">Mem ₹ 1000/1500</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women Hair Styling section ###-->
+      
+      <!--Women Hair wash section-->
+      <div class="hair-wash space-20">
+        <div class="section-heading">
+          <h6>HAIR DRY. BLAST DRY, BLOW DRY</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://cdn.dotpe.in/longtail/store-items/7976446/4P28ChLK.jpeg" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>ONLY HAIR WASH S/M/L</h4>
+                  <span class="category non-mem">Non-Mem ₹ 200/300/500</span>
+                  <span class="category mem">Mem ₹ 150/250/450</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://media.licdn.com/dms/image/C5112AQFctDVVRCuSdA/article-cover_image-shrink_600_2000/0/1520201951224?e=2147483647&v=beta&t=NbcmQH7Tk_0ea5cKHrt6nY5OM6gb-cGJKmqzsTsLBbA" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>STRAIGHT BLOW DRY M/L</h4>
+                  <span class="category non-mem">Non-Mem ₹ 550/700</span>
+                  <span class="category mem">Mem ₹ 500/600</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://bushbalm.com/cdn/shop/articles/Waxing_after_care_and_avoiding_a_tear_2000x.jpg?v=1670467335" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>ADVANCED BLOW DRY M/L</h4>
+                  <span class="category non-mem">Non-Mem ₹ 700/900</span>
+                  <span class="category mem">Mem ₹ 600/800</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women Hair wash section ###-->
+
+      <!--Women colouring section-->
+      <div class="colouring space-20">
+        <div class="section-heading">
+          <h6>COLOURING & HIGHLIGHTS</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://cdn.dotpe.in/longtail/store-items/7976446/4P28ChLK.jpeg" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>PER STEAK</h4>
+                  <span class="category non-mem">Non-Mem ₹ 350</span>
+                  <span class="category mem">Mem ₹ 300</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://media.licdn.com/dms/image/C5112AQFctDVVRCuSdA/article-cover_image-shrink_600_2000/0/1520201951224?e=2147483647&v=beta&t=NbcmQH7Tk_0ea5cKHrt6nY5OM6gb-cGJKmqzsTsLBbA" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>ADVANCED STEAKS</h4>
+                  <span class="category non-mem">Non-Mem ₹ 500</span>
+                  <span class="category mem">Mem ₹ 500</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://bushbalm.com/cdn/shop/articles/Waxing_after_care_and_avoiding_a_tear_2000x.jpg?v=1670467335" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>ROOT TOUCH UP</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1500</span>
+                  <span class="category mem">Mem ₹ 1400</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://silverinesalon.in/cdn/shop/files/halfarms.jpg?v=1682661766" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>GLOBAL WITH HIGHLIGHTS</h4>
+                  <span class="category non-mem">Non-Mem ₹ 5000</span>
+                  <span class="category mem">Mem ₹ 4500</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://remedytupelo.com/storage/2022/11/10-Things-To-Know-Before-Getting-Your-Facial-Waxing-1024x683.jpeg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>HIGHLIGHTS PARTIAL/FULL</h4>
+                  <span class="category non-mem">Non-Mem ₹ 2300/3300</span>
+                  <span class="category mem">Mem ₹ 2200/3200</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://editunisexspasaloon.com/photos/product/lipo-wax/half-back.jpg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>GLOBAL COLOUR S/M/L</h4>
+                  <span class="category non-mem">Non-Mem ₹ 2800/3000/3800</span>
+                  <span class="category mem">Mem ₹ 2600/2800/3500</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://beautylook.in/wp-content/uploads/2022/08/shutterstock_377324134-scaled.jpg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>GLOBAL AF COLOUR S/M/L</h4>
+                  <span class="category non-mem">Non-Mem ₹ 3000/3500/4000</span>
+                  <span class="category mem">Mem ₹ 2800/3300/3800</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://www.glossunisexsalon.in/image/cache/catalog/FL-758x899.jpg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>GLOBAL FASHION COLOUR S/M/L</h4>
+                  <span class="category non-mem">Non-Mem ₹ 3000/3500/4000</span>
+                  <span class="category mem">Mem ₹ 2800/3300/3800</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women colouring section ###-->
+
+      <!--Women Hair care section-->
+      <div class="hair-care space-20">
+        <div class="section-heading">
+          <h6>HAIR CARE</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://cdn.dotpe.in/longtail/store-items/7976446/4P28ChLK.jpeg" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>HEAD MASSAGE-COCONUT OIL M/L</h4>
+                  <span class="category non-mem">Non-Mem ₹ 300/400</span>
+                  <span class="category mem">Mem ₹ 250/350</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://media.licdn.com/dms/image/C5112AQFctDVVRCuSdA/article-cover_image-shrink_600_2000/0/1520201951224?e=2147483647&v=beta&t=NbcmQH7Tk_0ea5cKHrt6nY5OM6gb-cGJKmqzsTsLBbA" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>HEAD MASSAGE-MENTHOL OIL M/L</h4>
+                  <span class="category non-mem">Non-Mem ₹ 400/500</span>
+                  <span class="category mem">Mem ₹ 300/400</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://bushbalm.com/cdn/shop/articles/Waxing_after_care_and_avoiding_a_tear_2000x.jpg?v=1670467335" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>HEAD MASSAGE-OLIVE OIL M/L</h4>
+                  <span class="category non-mem">Non-Mem ₹ 450/500</span>
+                  <span class="category mem">Mem ₹ 400/450</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women Hair care section ###-->
+
+      <!--Women SPA Treatment section-->
+      <div class="spa-treatment space-20">
+        <div class="section-heading">
+          <h6>SPA TREATMENT</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://cdn.dotpe.in/longtail/store-items/7976446/4P28ChLK.jpeg" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>CLASSIC SPA S/M/L</h4>
+                  <span class="category non-mem">Non-Mem ₹ 800/1000/1500</span>
+                  <span class="category mem">Mem ₹ 750/950/1300</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://media.licdn.com/dms/image/C5112AQFctDVVRCuSdA/article-cover_image-shrink_600_2000/0/1520201951224?e=2147483647&v=beta&t=NbcmQH7Tk_0ea5cKHrt6nY5OM6gb-cGJKmqzsTsLBbA" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>MOISTURIZING SPA S/M/L</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1000/1200/1500</span>
+                  <span class="category mem">Mem ₹ 900/1100/1300</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://bushbalm.com/cdn/shop/articles/Waxing_after_care_and_avoiding_a_tear_2000x.jpg?v=1670467335" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>FRIZZY SPA S/M/L</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1200/1500/1800</span>
+                  <span class="category mem">Mem ₹ 1100/1400/1700</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://silverinesalon.in/cdn/shop/files/halfarms.jpg?v=1682661766" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>COLOUR SAVE SPA S/M/L</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1200/1500/1800</span>
+                  <span class="category mem">Mem ₹ 1000/1400/1700</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://remedytupelo.com/storage/2022/11/10-Things-To-Know-Before-Getting-Your-Facial-Waxing-1024x683.jpeg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>DEEP CONDITIONING SPA S/M/L</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1200/1500/1800</span>
+                  <span class="category mem">Mem ₹ 1100/1400/1700</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women SPA Treatment section ###-->
+
+
+      <!--Women Treatment section-->
+      <div class="treatment space-20">
+        <div class="section-heading">
+          <h6>TREATMENTS</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://cdn.dotpe.in/longtail/store-items/7976446/4P28ChLK.jpeg" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>ANTI DANDRUFF TREATMENT</h4>
+                  <span class="category non-mem">₹ 1500</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://media.licdn.com/dms/image/C5112AQFctDVVRCuSdA/article-cover_image-shrink_600_2000/0/1520201951224?e=2147483647&v=beta&t=NbcmQH7Tk_0ea5cKHrt6nY5OM6gb-cGJKmqzsTsLBbA" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>ANTI HAIR FALL TREATMENT</h4>
+                  <span class="category non-mem">₹ 1500</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://bushbalm.com/cdn/shop/articles/Waxing_after_care_and_avoiding_a_tear_2000x.jpg?v=1670467335" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>HEEL PEEL TREATMENT</h4>
+                  <span class="category non-mem">₹ 1800</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women Treatment section ###-->
+
+      <!--Women Hair Treatment section-->
+      <div class="hair-treatment space-20">
+        <div class="section-heading">
+          <h6>HAIR TREATMENTS</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://cdn.dotpe.in/longtail/store-items/7976446/4P28ChLK.jpeg" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>SMOOTHING/STRAIGHTENING</h4>
+                  <span class="category non-mem">₹ 5000/7000/9000</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://media.licdn.com/dms/image/C5112AQFctDVVRCuSdA/article-cover_image-shrink_600_2000/0/1520201951224?e=2147483647&v=beta&t=NbcmQH7Tk_0ea5cKHrt6nY5OM6gb-cGJKmqzsTsLBbA" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>KERATIN TREATMENT</h4>
+                  <span class="category non-mem">₹ 6000/8000/10,000</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://bushbalm.com/cdn/shop/articles/Waxing_after_care_and_avoiding_a_tear_2000x.jpg?v=1670467335" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>IRONING S/M/L</h4>
+                  <span class="category non-mem">₹ 800/1200/1800</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women Hair Treatment section ###-->
+
+      <!--Women Basic Clean up section-->
+      <div class="hair-wash space-20">
+        <div class="section-heading">
+          <h6>BASIC CLEAN UP</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://cdn.dotpe.in/longtail/store-items/7976446/4P28ChLK.jpeg" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>CLEAN UP</h4>
+                  <span class="category non-mem">Non-Mem ₹ 500</span>
+                  <span class="category mem">Mem ₹ 450</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://media.licdn.com/dms/image/C5112AQFctDVVRCuSdA/article-cover_image-shrink_600_2000/0/1520201951224?e=2147483647&v=beta&t=NbcmQH7Tk_0ea5cKHrt6nY5OM6gb-cGJKmqzsTsLBbA" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>ACNE CLEAN UP</h4>
+                  <span class="category non-mem">Non-Mem ₹ 600</span>
+                  <span class="category mem">Mem ₹ 550</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women Basic clean up section ###-->
+
+      <!--Women Facials section-->
+      <div class="facials space-20">
+        <div class="section-heading">
+          <h6>FACIALS</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://cdn.dotpe.in/longtail/store-items/7976446/4P28ChLK.jpeg" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>FRUIT</h4>
+                  <span class="category non-mem">Non-Mem ₹ 900</span>
+                  <span class="category mem">Mem ₹ 800</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://media.licdn.com/dms/image/C5112AQFctDVVRCuSdA/article-cover_image-shrink_600_2000/0/1520201951224?e=2147483647&v=beta&t=NbcmQH7Tk_0ea5cKHrt6nY5OM6gb-cGJKmqzsTsLBbA" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>CHOCOLATE FACIAL</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1200</span>
+                  <span class="category mem">Mem ₹ 1100</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://bushbalm.com/cdn/shop/articles/Waxing_after_care_and_avoiding_a_tear_2000x.jpg?v=1670467335" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>DAIMOND FACIAL</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1200</span>
+                  <span class="category mem">Mem ₹ 1100</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://silverinesalon.in/cdn/shop/files/halfarms.jpg?v=1682661766" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>PEARL FACILA</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1300</span>
+                  <span class="category mem">Mem ₹ 1200</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://remedytupelo.com/storage/2022/11/10-Things-To-Know-Before-Getting-Your-Facial-Waxing-1024x683.jpeg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>WINE FACIAL</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1300</span>
+                  <span class="category mem">Mem ₹ 1200</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://editunisexspasaloon.com/photos/product/lipo-wax/half-back.jpg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>GOLD FACIAL</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1500</span>
+                  <span class="category mem">Mem ₹ 1400</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://beautylook.in/wp-content/uploads/2022/08/shutterstock_377324134-scaled.jpg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>DEAD SEA FACIAL</h4>
+                  <span class="category non-mem">Non-Mem ₹ 2000</span>
+                  <span class="category mem">Mem ₹ 1800</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://www.glossunisexsalon.in/image/cache/catalog/FL-758x899.jpg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>SKIN LIGHTENING FACIAL</h4>
+                  <span class="category non-mem">Non-Mem ₹ 2300</span>
+                  <span class="category mem">Mem ₹ 2200</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://dsbeautybar.com/cdn/shop/products/image_0b6403cd-12bc-42c6-a793-7271de635c7a_1000x.jpg?v=1567347656" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>RE-ENERGIZING FACIAL</h4>
+                  <span class="category non-mem">Non-Mem ₹ 2800</span>
+                  <span class="category mem">Mem ₹ 2700</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://queeninfinity.ie/wp-content/uploads/2022/12/7cb51a_2b98906417a24aab90b3c7c191d1f512_mv2.webp" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>DEEP PIGMENTATION</h4>
+                  <span class="category non-mem">Non-Mem ₹ 3500</span>
+                  <span class="category mem">Mem ₹ 3300</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOUCkJ3l5Frn3hEMxN45cqLX18b0JE4GM09g&usqp=CAU" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>BRIDAL FACIAL</h4>
+                  <span class="category non-mem">Non-Mem ₹ 4000</span>
+                  <span class="category mem">Mem ₹ 3800</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women Facials section ###-->
+
+       <!--Women add on mask section-->
+       <div class="mask space-20">
+        <div class="section-heading">
+          <h6>ADD ON MASK</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://cdn.dotpe.in/longtail/store-items/7976446/4P28ChLK.jpeg" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>CV WHITENING MASK</h4>
+                  <span class="category non-mem">₹ 500</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://media.licdn.com/dms/image/C5112AQFctDVVRCuSdA/article-cover_image-shrink_600_2000/0/1520201951224?e=2147483647&v=beta&t=NbcmQH7Tk_0ea5cKHrt6nY5OM6gb-cGJKmqzsTsLBbA" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>CV FIRMING MASK</h4>
+                  <span class="category non-mem">₹ 700</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://bushbalm.com/cdn/shop/articles/Waxing_after_care_and_avoiding_a_tear_2000x.jpg?v=1670467335" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>GOLD MASK</h4>
+                  <span class="category non-mem">₹ 1200</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://bushbalm.com/cdn/shop/articles/Waxing_after_care_and_avoiding_a_tear_2000x.jpg?v=1670467335" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>BRIDAL GLOW MASK</h4>
+                  <span class="category non-mem">₹ 1500</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women ADD ON MASK section ###-->
+
+      <!--Women Body care section-->
+      <div class="body-care space-20">
+        <div class="section-heading">
+          <h6>BODY CARE</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://cdn.dotpe.in/longtail/store-items/7976446/4P28ChLK.jpeg" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>change of nail colour</h4>
+                  <span class="category non-mem">Non-Mem ₹ 150</span>
+                  <span class="category mem">Mem ₹ 120</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://media.licdn.com/dms/image/C5112AQFctDVVRCuSdA/article-cover_image-shrink_600_2000/0/1520201951224?e=2147483647&v=beta&t=NbcmQH7Tk_0ea5cKHrt6nY5OM6gb-cGJKmqzsTsLBbA" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>cut, file & polish</h4>
+                  <span class="category non-mem">Non-Mem ₹ 200</span>
+                  <span class="category mem">Mem ₹ 180</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://bushbalm.com/cdn/shop/articles/Waxing_after_care_and_avoiding_a_tear_2000x.jpg?v=1670467335" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>french polish</h4>
+                  <span class="category non-mem">Non-Mem ₹ 250</span>
+                  <span class="category mem">Mem ₹ NA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women body care section ###-->
+
+      <!--Women Pedicure section-->
+      <div class="pedicure space-20">
+        <div class="section-heading">
+          <h6>PEDICURE</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_jUJ15kXKxEuxyMwrIx2HBeYHjxv60Hw9X54A1X9zv4kzEFgna1TCKfoHotGfcEGp1Us&usqp=CAU" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>coco butter</h4>
+                  <span class="category non-mem">Non-Mem ₹ 600</span>
+                  <span class="category mem">Mem ₹ 550</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1u3G5d6gZSMsicgc7M6MebYy83kNRn12RvQ&usqp=CAU" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>dead sea</h4>
+                  <span class="category non-mem">Non-Mem ₹ 700</span>
+                  <span class="category mem">Mem ₹ 650</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTCZXJD629KrYX7wMfvLO0LE_Chi8Wb9FkIR2bswjKo0r_SM1ViDIuRohzldS1EjD6YAk&usqp=CAU" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>crystal</h4>
+                  <span class="category non-mem">Non-Mem ₹ 900</span>
+                  <span class="category mem">Mem ₹ 800</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://www.glamoureyebrowmason.com/wp-content/uploads/2018/10/l1.jpg" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>detan</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1100</span>
+                  <span class="category mem">Mem ₹ 1000</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://5.imimg.com/data5/YY/GB/XZ/SELLER-8438256/upper-lips-threading.jpeg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>ice cream</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1200</span>
+                  <span class="category mem">Mem ₹ 1000</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://myspalotus.com/wp-content/uploads/2023/08/cheeks-threading.jpeg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>spa</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1300</span>
+                  <span class="category mem">Mem ₹ 1200</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://www.feelpink.ae/wp-content/uploads/2021/03/Side-Face-Threading.jpg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>organic</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1500</span>
+                  <span class="category mem">Mem ₹ 1400</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women pedicure section ###-->
+
+      <!--Women MANICURE section-->
+      <div class="manicure space-20">
+        <div class="section-heading">
+          <h6>MANICURE</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_jUJ15kXKxEuxyMwrIx2HBeYHjxv60Hw9X54A1X9zv4kzEFgna1TCKfoHotGfcEGp1Us&usqp=CAU" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>coco butter</h4>
+                  <span class="category non-mem">Non-Mem ₹ 500</span>
+                  <span class="category mem">Mem ₹ 450</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1u3G5d6gZSMsicgc7M6MebYy83kNRn12RvQ&usqp=CAU" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>dead sea</h4>
+                  <span class="category non-mem">Non-Mem ₹ 600</span>
+                  <span class="category mem">Mem ₹ 550</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTCZXJD629KrYX7wMfvLO0LE_Chi8Wb9FkIR2bswjKo0r_SM1ViDIuRohzldS1EjD6YAk&usqp=CAU" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>crystal</h4>
+                  <span class="category non-mem">Non-Mem ₹ 800</span>
+                  <span class="category mem">Mem ₹ 750</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://www.glamoureyebrowmason.com/wp-content/uploads/2018/10/l1.jpg" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>detan</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1000</span>
+                  <span class="category mem">Mem ₹ 900</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://5.imimg.com/data5/YY/GB/XZ/SELLER-8438256/upper-lips-threading.jpeg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>ice cream</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1100</span>
+                  <span class="category mem">Mem ₹ 1000</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://myspalotus.com/wp-content/uploads/2023/08/cheeks-threading.jpeg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>spa</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1200</span>
+                  <span class="category mem">Mem ₹ 1100</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://www.feelpink.ae/wp-content/uploads/2021/03/Side-Face-Threading.jpg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>organic</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1400</span>
+                  <span class="category mem">Mem ₹ 1300</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women manicure section ###-->
+
+      <!--Women Reflexology section-->
+      <div class="reflexology space-20">
+        <div class="section-heading">
+          <h6>REFLEXOLOGY</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://cdn.dotpe.in/longtail/store-items/7976446/4P28ChLK.jpeg" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>HANDS 20 mins</h4>
+                  <span class="category non-mem">Non-Mem ₹ 300</span>
+                  <span class="category mem">Mem ₹ 250</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://media.licdn.com/dms/image/C5112AQFctDVVRCuSdA/article-cover_image-shrink_600_2000/0/1520201951224?e=2147483647&v=beta&t=NbcmQH7Tk_0ea5cKHrt6nY5OM6gb-cGJKmqzsTsLBbA" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>back & neck 20 mins</h4>
+                  <span class="category non-mem">Non-Mem ₹ 300</span>
+                  <span class="category mem">Mem ₹ 250</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://bushbalm.com/cdn/shop/articles/Waxing_after_care_and_avoiding_a_tear_2000x.jpg?v=1670467335" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>feet 20 mins</h4>
+                  <span class="category non-mem">Non-Mem ₹ 500</span>
+                  <span class="category mem">Mem ₹ 450</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women reflexology section ###-->
+
+      <!--Women DETAN/BLEACH section-->
+      <div class="detan space-20">
+        <div class="section-heading">
+          <h6>DETAN / BLEACH</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_jUJ15kXKxEuxyMwrIx2HBeYHjxv60Hw9X54A1X9zv4kzEFgna1TCKfoHotGfcEGp1Us&usqp=CAU" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>feet</h4>
+                  <span class="category non-mem">Non-Mem ₹ 200</span>
+                  <span class="category mem">Mem ₹ 150</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1u3G5d6gZSMsicgc7M6MebYy83kNRn12RvQ&usqp=CAU" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>face</h4>
+                  <span class="category non-mem">Non-Mem ₹ 300</span>
+                  <span class="category mem">Mem ₹ 250</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTCZXJD629KrYX7wMfvLO0LE_Chi8Wb9FkIR2bswjKo0r_SM1ViDIuRohzldS1EjD6YAk&usqp=CAU" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>neck</h4>
+                  <span class="category non-mem">Non-Mem ₹ 300</span>
+                  <span class="category mem">Mem ₹ 250</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://www.glamoureyebrowmason.com/wp-content/uploads/2018/10/l1.jpg" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>half arms</h4>
+                  <span class="category non-mem">Non-Mem ₹ 400</span>
+                  <span class="category mem">Mem ₹ 350</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://5.imimg.com/data5/YY/GB/XZ/SELLER-8438256/upper-lips-threading.jpeg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>half legs</h4>
+                  <span class="category non-mem">Non-Mem ₹ 500</span>
+                  <span class="category mem">Mem ₹ 450</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://myspalotus.com/wp-content/uploads/2023/08/cheeks-threading.jpeg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>full back</h4>
+                  <span class="category non-mem">Non-Mem ₹ 600</span>
+                  <span class="category mem">Mem ₹ 550</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://www.feelpink.ae/wp-content/uploads/2021/03/Side-Face-Threading.jpg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>face & neck & blouse line</h4>
+                  <span class="category non-mem">Non-Mem ₹ 800</span>
+                  <span class="category mem">Mem ₹ 700</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://myspalotus.com/wp-content/uploads/2023/08/cheeks-threading.jpeg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>Full arms</h4>
+                  <span class="category non-mem">Non-Mem ₹ 800</span>
+                  <span class="category mem">Mem ₹ 700</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://www.feelpink.ae/wp-content/uploads/2021/03/Side-Face-Threading.jpg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>full legs</h4>
+                  <span class="category non-mem">Non-Mem ₹ 900</span>
+                  <span class="category mem">Mem ₹ 800</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://www.feelpink.ae/wp-content/uploads/2021/03/Side-Face-Threading.jpg" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>full body</h4>
+                  <span class="category non-mem">Non-Mem ₹ 2500</span>
+                  <span class="category mem">Mem ₹ 2300</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women detan section ###-->
+
+      <!--Women body Reflexology section-->
+      <div class="body-reflexology space-20">
+        <div class="section-heading">
+          <h6>BODY REFLEXOLOGY</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://cdn.dotpe.in/longtail/store-items/7976446/4P28ChLK.jpeg" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>body massage</h4>
+                  <span class="category non-mem">Non-Mem ₹ 1800</span>
+                  <span class="category mem">Mem ₹ 1700</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://media.licdn.com/dms/image/C5112AQFctDVVRCuSdA/article-cover_image-shrink_600_2000/0/1520201951224?e=2147483647&v=beta&t=NbcmQH7Tk_0ea5cKHrt6nY5OM6gb-cGJKmqzsTsLBbA" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>body polish</h4>
+                  <span class="category non-mem">Non-Mem ₹ 2500</span>
+                  <span class="category mem">Mem ₹ 2400</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://bushbalm.com/cdn/shop/articles/Waxing_after_care_and_avoiding_a_tear_2000x.jpg?v=1670467335" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>massage+wrap+polish</h4>
+                  <span class="category non-mem">Non-Mem ₹ 3500</span>
+                  <span class="category mem">Mem ₹ 3400</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women body reflexology section ###-->
+
+       <!--Women bridal makeup section-->
+       <div class="bridal-makeup space-20">
+        <div class="section-heading">
+          <h6>BRIDAL MAKEUP</h6>
+        </div>
+        <div class="container-fluid">
+          <div class="horizontal-scroll-container d-flex flex-nowrap">
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://cdn.dotpe.in/longtail/store-items/7976446/4P28ChLK.jpeg" alt=""></a>
+                  <!--<span class="price"><em>$36</em>$24</span>-->
+                </div>
+                <div class="down-content">
+                  <h4>SAREE DRAPPING</h4>
+                  <span class="category non-mem">₹ 500</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://media.licdn.com/dms/image/C5112AQFctDVVRCuSdA/article-cover_image-shrink_600_2000/0/1520201951224?e=2147483647&v=beta&t=NbcmQH7Tk_0ea5cKHrt6nY5OM6gb-cGJKmqzsTsLBbA" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <h4>TRAIL MAKEUP KRYLON</h4>
+                  <span class="category non-mem">₹ 800</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://bushbalm.com/cdn/shop/articles/Waxing_after_care_and_avoiding_a_tear_2000x.jpg?v=1670467335" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>TRAIL MAKE UP MAC</h4>
+                  <span class="category non-mem">₹ 1000</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://bushbalm.com/cdn/shop/articles/Waxing_after_care_and_avoiding_a_tear_2000x.jpg?v=1670467335" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>HAIR DO</h4>
+                  <span class="category non-mem">₹ 1200</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://bushbalm.com/cdn/shop/articles/Waxing_after_care_and_avoiding_a_tear_2000x.jpg?v=1670467335" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>BRIDAL KRYLON</h4>
+                  <span class="category non-mem">₹ 8000</span>
+                </div>
+              </div>
+            </div>
+            <div class="trending-items">
+              <div class="item">
+                <div class="thumb">
+                  <a href="product-details.html"><img src="https://bushbalm.com/cdn/shop/articles/Waxing_after_care_and_avoiding_a_tear_2000x.jpg?v=1670467335" alt=""></a>
+                  
+                </div>
+                <div class="down-content">
+                  <h4>BRIDAL MAC</h4>
+                  <span class="category non-mem">₹ 10,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--### End Women Bridal nakeup section ###-->
+
+     </div>
+     <!--### End women section ###-->
+
+     <!--Men section-->
+     <div class="men" id="men-section" hidden>
+      <!-- Men Threading section-->
+      <div class="section-heading">
+        <h6>HAIR CUTS & STYLING</h6>
+      </div>
+    <div class="container-fluid threading">
+      <div class="horizontal-scroll-container d-flex flex-nowrap">
+        <div class="trending-items">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="https://heygoldie.com/blog/wp-content/uploads/2024/01/beard-trim-inspiration.jpeg" alt=""></a>
+              <!--<span class="price"><em>$36</em>$24</span>-->
+            </div>
+            <div class="down-content">
+              <h4>BEARD SHAPE</h4>
+              <span class="category non-mem">Non-Mem ₹ 50</span>
+              <span class="category mem">Mem ₹ 50</span>
+            </div>
+          </div>
+        </div>
+        <div class="trending-items">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1u3G5d6gZSMsicgc7M6MebYy83kNRn12RvQ&usqp=CAU" alt=""></a>
+            </div>
+            <div class="down-content">
+              <h4>BEARD TRIM</h4>
+              <span class="category non-mem">Non-Mem ₹ 80</span>
+              <span class="category mem">Mem ₹ 70</span>
+            </div>
+          </div>
+        </div>
+        <div class="trending-items">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTCZXJD629KrYX7wMfvLO0LE_Chi8Wb9FkIR2bswjKo0r_SM1ViDIuRohzldS1EjD6YAk&usqp=CAU" alt=""></a>
+              
+            </div>
+            <div class="down-content">
+              <h4>SHAVE</h4>
+              <span class="category non-mem">Non-Mem ₹ 90</span>
+              <span class="category mem">Mem ₹ 80</span>
+            </div>
+          </div>
+        </div>
+        <div class="trending-items">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="https://www.glamoureyebrowmason.com/wp-content/uploads/2018/10/l1.jpg" alt=""></a>
+            </div>
+            <div class="down-content">
+              <h4>KIDS HAIR CUT</h4>
+              <span class="category non-mem">Non-Mem ₹ 120</span>
+              <span class="category mem">Mem ₹ 100</span>
+            </div>
+          </div>
+        </div>
+        <div class="trending-items">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="https://5.imimg.com/data5/YY/GB/XZ/SELLER-8438256/upper-lips-threading.jpeg" alt=""></a>
+              
+            </div>
+            <div class="down-content">
+              <h4>HAIR WASH</h4>
+              <span class="category non-mem">Non-Mem ₹ 120</span>
+              <span class="category mem">Mem ₹ 100</span>
+            </div>
+          </div>
+        </div>
+        <div class="trending-items">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="https://myspalotus.com/wp-content/uploads/2023/08/cheeks-threading.jpeg" alt=""></a>
+              
+            </div>
+            <div class="down-content">
+              <h4>HAIR CUT BASIC</h4>
+              <span class="category non-mem">Non-Mem ₹ 150</span>
+              <span class="category mem">Mem ₹ 130</span>
+            </div>
+          </div>
+        </div>
+        <div class="trending-items">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="https://www.feelpink.ae/wp-content/uploads/2021/03/Side-Face-Threading.jpg" alt=""></a>
+              
+            </div>
+            <div class="down-content">
+              <h4>HAIR CUT ADVANCED</h4>
+              <span class="category non-mem">Non-Mem ₹ 200</span>
+              <span class="category mem">Mem ₹ 180</span>
+            </div>
+          </div>
+        </div>
+        <div class="trending-items">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="https://www.kriyanshbeautybar.com/images/neck-threading.jpeg" alt=""></a>
+              
+            </div>
+            <div class="down-content">
+              <h4>HEAD SHAVE</h4>
+              <span class="category non-mem">Non-Mem ₹ 250</span>
+              <span class="category mem">Mem ₹ 200</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Men threading section-->
+     </div>
+     <!--### End men section ###-->
+
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="pagination">
+          <li><a href="#"> &lt; </a></li>
+            <li><a href="#">1</a></li>
+            <li><a class="is_active" href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#"> &gt; </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section trending">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="section-heading">
+            <h6>Trending</h6>
+            <h2>Trending Games</h2>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="main-button">
+            <a href="shop.html">View All</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="assets/images/trending-01.jpg" alt=""></a>
+              
+            </div>
+            <div class="down-content">
+              <span class="category">Action</span>
+              <h4>Assasin Creed</h4>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="assets/images/trending-02.jpg" alt=""></a>
+              <span class="price">$44</span>
+            </div>
+            <div class="down-content">
+              <span class="category">Action</span>
+              <h4>Assasin Creed</h4>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="assets/images/trending-03.jpg" alt=""></a>
+              <span class="price"><em>$64</em>$44</span>
+            </div>
+            <div class="down-content">
+              <span class="category">Action</span>
+              <h4>Assasin Creed</h4>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="assets/images/trending-04.jpg" alt=""></a>
+              <span class="price">$32</span>
+            </div>
+            <div class="down-content">
+              <span class="category">Action</span>
+              <h4>Assasin Creed</h4>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section most-played" hidden>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="section-heading">
+            <h6>TOP GAMES</h6>
+            <h2>Most Played</h2>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="main-button">
+            <a href="shop.html">View All</a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="assets/images/top-game-01.jpg" alt=""></a>
+            </div>
+            <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>Assasin Creed</h4>
+                <a href="product-details.html">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="assets/images/top-game-02.jpg" alt=""></a>
+            </div>
+            <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>Assasin Creed</h4>
+                <a href="product-details.html">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="assets/images/top-game-03.jpg" alt=""></a>
+            </div>
+            <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>Assasin Creed</h4>
+                <a href="product-details.html">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="assets/images/top-game-04.jpg" alt=""></a>
+            </div>
+            <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>Assasin Creed</h4>
+                <a href="product-details.html">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="assets/images/top-game-05.jpg" alt=""></a>
+            </div>
+            <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>Assasin Creed</h4>
+                <a href="product-details.html">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="assets/images/top-game-06.jpg" alt=""></a>
+            </div>
+            <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>Assasin Creed</h4>
+                <a href="product-details.html">Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section categories" hidden>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="section-heading">
+            <h6>Categories</h6>
+            <h2>Top Categories</h2>
+          </div>
+        </div>
+        <div class="col-lg col-sm-6 col-xs-12">
+          <div class="item">
+            <h4>Action</h4>
+            <div class="thumb">
+              <a href="product-details.html"><img src="assets/images/categories-01.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg col-sm-6 col-xs-12">
+          <div class="item">
+            <h4>Action</h4>
+            <div class="thumb">
+              <a href="product-details.html"><img src="assets/images/categories-05.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg col-sm-6 col-xs-12">
+          <div class="item">
+            <h4>Action</h4>
+            <div class="thumb">
+              <a href="product-details.html"><img src="assets/images/categories-03.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg col-sm-6 col-xs-12">
+          <div class="item">
+            <h4>Action</h4>
+            <div class="thumb">
+              <a href="product-details.html"><img src="assets/images/categories-04.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg col-sm-6 col-xs-12">
+          <div class="item">
+            <h4>Action</h4>
+            <div class="thumb">
+              <a href="product-details.html"><img src="assets/images/categories-05.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="section cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="shop">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="section-heading">
+                  <h6>Our Shop</h6>
+                  <h2>Go Pre-Order Buy & Get Best <em>Prices</em> For You!</h2>
+                </div>
+                <p>Lorem ipsum dolor consectetur adipiscing, sed do eiusmod tempor incididunt.</p>
+                <div class="main-button">
+                  <a href="shop.html">Shop Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 offset-lg-2 align-self-end">
+          <div class="subscribe">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="section-heading">
+                  <h6>NEWSLETTER</h6>
+                  <h2>Get Up To $100 Off Just Buy <em>Subscribe</em> Newsletter!</h2>
+                </div>
+                <div class="search-input">
+                  <form id="subscribe" action="#">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email...">
+                    <button type="submit">Subscribe Now</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="col-lg-12">
+        <p>Copyright © 2048 LUGX Gaming Company. All rights reserved. &nbsp;&nbsp; <a rel="nofollow" href="https://templatemo.com" target="_blank">Design: TemplateMo</a></p>
+      </div>
+    </div>
+  </footer>
+  <script>
+  document.querySelectorAll('.horizontal-scroll-container').forEach(container => {
+    container.addEventListener('wheel', (event) => {
+      if (event.deltaY !== 0) {
+        event.preventDefault();
+        container.scrollLeft += event.deltaY;
+      }
+    });
+  });
+
+        function showSection(section) {
+            document.getElementById('women-section').hidden = (section !== 'women');
+            document.getElementById('men-section').hidden = (section !== 'men');
+            
+            // Update the active class on the filter links
+            document.querySelectorAll('.trending-filter a').forEach(link => {
+                link.classList.remove('is_active');
+                if (link.getAttribute('data-filter') === section) {
+                    link.classList.add('is_active');
+                }
+            });
+        }
+
+</script>
+
+  </script>
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
