@@ -128,7 +128,7 @@ body {
 }
 
 .section {
-  margin-top: 120px;
+  margin-top: 80px;
 }
 
 .section-heading {
@@ -149,7 +149,7 @@ body {
 }
 
 .section-heading h6 {
-  color: #ee626b;
+  color: #c43a8e;
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 700;
@@ -285,7 +285,10 @@ Header Style
 */
 
 .background-header {
-  background-color: #0071f8 !important;
+  background: #f953c6;  
+  background: -webkit-linear-gradient(to right, #b91d73, #f953c6);  
+  background: linear-gradient(to right, #b91d73, #f953c6); 
+
   border-radius: 0px 0px 25px 25px;
   height: 80px!important;
   position: fixed!important;
@@ -651,12 +654,12 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/banner-2.jpg);
-  border-radius: 0px 0px 150px 150px;
+  background-image: url(../images/local/banner_bg.png);
+  border-radius: 0px 0px 12px 12px;
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 225px 0px;
+  padding: 120px 0px;
 }
 
 .main-banner .caption h6 {
@@ -731,16 +734,13 @@ Banner Style
   background-color: #0071f8;
 }
 
-.main-banner .right-image {
-  position: relative;
-}
 
 .main-banner .right-image img {
   border-radius: 25px;
 }
 
 .main-banner .right-image span.price {
-  position: absolute;
+
   right: 20px;
   top: 20px;
   border-radius: 25px;
@@ -892,11 +892,11 @@ Trending Style
 }
 
 .trending .item:hover .down-content h4 {
-  color: #0071f8;
+  color: #c43a8e;
 }
 
 .trending .item:hover .down-content a {
-  background-color: #0071f8;
+  background-color: #cb529c;
 }
 
 
@@ -1116,9 +1116,9 @@ footer {
   background-color: #0071f8;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/footer-bg.jpg);
+  background-image: url(../images/local/footer_bg.png);
   min-height: 150px;
-  border-radius: 150px 150px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
 }
 
 footer p {
@@ -1148,7 +1148,7 @@ Page Header Style
 */
 
 .page-heading {
-  background-image: url(../images/page-heading-bg.jpg);
+  background-image: url(../images/local/page_heading.png);
   border-radius: 0px 0px 150px 150px;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -1208,7 +1208,7 @@ Shop Page Style
 }
 
 .trending ul.trending-filter li a.is_active {
-  background-color: #ee626b;
+  background-color: #c43a8e;
   color: #fff;
 }
 
@@ -1217,7 +1217,7 @@ Shop Page Style
 }
 
 .trending ul.trending-filter li a:hover {
-  color: #ee626b;
+  color: #cb529c;
 }
 
 .trending-box .item  {
@@ -1594,7 +1594,6 @@ body {
     bottom: 20px;
   }
   .cta .subscribe form button {
-    position: relative;
     width: 100%;
     margin-top: 15px;
   }
