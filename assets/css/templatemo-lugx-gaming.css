@@ -154,6 +154,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   line-height: 24px;
+  margin: 30px 0px 0px 15px;
 }
 
 .main-button a {
@@ -189,6 +190,10 @@ Pre-loader Style
   right: 0;
   bottom: 0;
   background-color: rgba(0,0,0,0.99);
+  background-image: url("../images/local/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
@@ -249,7 +254,7 @@ Pre-loader Style
   height: 16px;
   top: 12px;
   left: 15px;
-  background: #0071f8;
+  background: #c43a8e;
   border-radius: 50%;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -272,7 +277,7 @@ Pre-loader Style
   width: 16px;
   height: 16px;
   margin-left: 16px;
-  background: #0071f8;
+  background: #f953c6;
   border-radius: 50%;
 }
 
@@ -303,7 +308,7 @@ Header Style
 }
 
 .background-header .logo img {
-  max-width: 110px;
+  max-width: 200px;
 }
 
 .header-area {
@@ -1530,7 +1535,7 @@ Contact PAge Style
 }
 
 .contact-page .right-content form input {
-  width: 100%;
+  width: 90%;
   height: 50px;
   border-radius: 25px;
   padding: 0px 20px;
@@ -1542,7 +1547,7 @@ Contact PAge Style
 }
 
 .contact-page .right-content form textarea {
-  width: 100%;
+  width: 90%;
   height: 130px;
   border-radius: 25px;
   padding: 20px 20px;
@@ -1557,7 +1562,7 @@ Contact PAge Style
   display: inline-block;
   height: 50px;
   line-height: 50px;
-  background-color: #ee626b;
+  background-color: #c45a8e;
   color: #fff;
   font-size: 15px;
   text-transform: uppercase;
@@ -1569,7 +1574,8 @@ Contact PAge Style
 }
 
 .contact-page .right-content form button:hover {
-  background-color: #0071f8;
+  background-color: #fc50a3;
+  transform: scale(1.1);
 }
 
 /* 

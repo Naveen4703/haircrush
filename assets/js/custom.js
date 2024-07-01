@@ -14,12 +14,15 @@
 	  var scroll = $(window).scrollTop();
 	  var box = $('.header-text').height();
 	  var header = $('header').height();
+	  var main = $('.main-banner').height();
 
 	  if (scroll >= box - header) {
 	    $("header").addClass("background-header");
 	  } else {
 	    $("header").removeClass("background-header");
 	  }
+
+	  scroll >= main - header ? $("header").addClass("background-header") : $("header").removeClass("background-header")
 	})
 
 	var width = $(window).width();
